@@ -7,12 +7,12 @@
 ## 3. Download ungoogled-chromium AppImage https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/appimage/arm64/
 
 ## 4. Modify fish config, add alias for your chromium AppImage
-'''
+```
 alias chromium="..."
-'''
+```
 
 ## 5. If fusermount error:
-'''
+```
 sudo pacman -Syu
 sudo pacman -S fuse2
-'''
+```
